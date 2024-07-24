@@ -317,6 +317,12 @@
         right: 72%;
         top: 76%;
     }
+    .a-right-1 img {
+        width: 365px;
+    }
+    .a-right-2 img{
+        width: 365px;
+    }
     /* menu-9 */
     .s{
         display: block;
