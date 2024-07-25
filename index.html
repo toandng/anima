@@ -6,6 +6,9 @@
     <title>Azoom</title>
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/respon.css">
+    <link rel="stylesheet" href="/aos-master/aos-master/dist/aos.css">
+    <script src="/aos-master/aos-master/dist/aos.js"></script>
+    <script></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- css slick -->
@@ -120,9 +123,12 @@
         <img src="/img/azoom1.jpg" alt="">
         <div class="container">
             <div class="r">
-                <h1 class="r-h1">AZOOM</h1>
-                <p class="r-p-1">Fresh Look On WordPress</p>
-                <p class="r-p-2">Change The Game?</p>
+                
+                    <h1 class="r-h1" data-aos="fade-down" >AZOOM</h1>
+            
+                
+                <p class="r-p-1" data-aos="fade-left">Fresh Look On WordPress</p>
+                <p class="r-p-2" data-aos="fade-right">Change The Game?</p>
             </div>
         </div>
     </section>
@@ -167,11 +173,11 @@
     <section class="menu-5">
         <div class="container">
             <div class="y">
-                <div id="y-menu" class="y-top">
+                <div id="y-menu" class="y-top" data-aos="fade-down">
                     <p>QUICK START <span>STEPS</span></p>
                        
                 </div>
-                <div class="y-down">
+                <div class="y-down" data-aos="fade-up">
                     <p  >It's very easy to install Azoom and build up your website. Follow these 5 steps and all done.</p>
                 </div>
             </div>
@@ -187,7 +193,7 @@
                             <span>1</span>
                         </div>
                         <div class="step-details-line"></div>
-                        <div class="step-details">
+                        <div class="step-details" data-aos="fade-right">
                             <h3>Download The Package</h3>
                             <p>Go to your Downloads section and download the zip.</p>
                         </div>
@@ -197,7 +203,7 @@
                             <span>2</span>
                         </div>
                         <div class="step-details-line"></div>
-                        <div class="step-details">
+                        <div class="step-details" data-aos="fade-down">
                             <h3>Upload The Theme</h3>
                             <p>Unzip downloaded package and upload the theme.zip to your Wordpress.</p>
                         </div>
@@ -207,7 +213,7 @@
                             <span>3</span>
                         </div>
                         <div class="step-details-line"></div>
-                        <div class="step-details">
+                        <div class="step-details" data-aos="fade-up"> 
                             <h3>Activate Theme and Plugins</h3>
                             <p>Go to Appearance > Themes and activate theme and plugins.</p>
                         </div>
@@ -217,7 +223,7 @@
                             <span>4</span>
                         </div>
                         <div class="step-details-line"></div>
-                        <div class="step-details">
+                        <div class="step-details" data-aos="fade-down">
                             <h3>One Click Install</h3>
                             <p>Go to Appearance > Theme Options and start One Click Install.</p>
                         </div>
@@ -227,7 +233,7 @@
                             <span>5</span>
                         </div>
                         <div class="step-details-line"></div>
-                        <div class="step-details">
+                        <div class="step-details" data-aos="fade-up">
                             <h3>All Done! :)</h3>
                             <p>You have finished the installation. Enjoy!</p>
                         </div>
@@ -388,7 +394,7 @@
                     <button>ALLEFTY DEMO <ion-icon name="arrow-redo-outline" class="d-icon"></ion-icon></button>
                 </div>
             </div>
-            <div class="d-right">
+            <div class="d-right" data-aos="fade-right">
                 <img src="/img/azoom9.png" alt="">
             </div>
         </div>
@@ -399,7 +405,7 @@
     <div class="f-tip"></div>
     <div class="container">
         <div class="f">
-            <div class="f-left">
+            <div class="f-left" data-aos="fade-left">
                 <img src="/img/azoom10.png" alt="">
             </div>
             <div class="f-right">
@@ -425,7 +431,7 @@
                     <button>ALLEFTY DEMO <ion-icon name="arrow-redo-outline" class="d-icon"></ion-icon></button>
                 </div>
             </div>
-            <div class="g-right">
+            <div class="g-right" data-aos="fade-right">
                 <img src="/img/azoom11.png" alt="">
             </div>
         </div>
@@ -525,7 +531,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="j-right">
+                <div class="j-right" data-aos="fade-right">
                     <img src="/img/azoom12.png" alt="">
                 </div>
             </div>
@@ -1084,4 +1090,7 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
+<script>
+    AOS.init();
+  </script>
 </html>
